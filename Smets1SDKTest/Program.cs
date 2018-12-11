@@ -16,7 +16,6 @@ namespace Smets1SDKTest
             var terminalhandler = new Terminal();
             var init = new APIInit();
             var client = init.Clientbuilder("test", "test1");
-
             terminalhandler.InitializeTerminal();
         }
     }
